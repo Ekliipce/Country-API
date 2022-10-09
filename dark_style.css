@@ -1,0 +1,130 @@
+body{
+    background-color: #202C36;
+    color: #FFFFFF;
+}
+#header-container{
+    background-color: #2B3844;
+}
+
+
+.country_item{
+    box-shadow: none;
+    background-color: #2B3844;
+}.country_name{
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 16px;
+}.country_info{
+    color: 808080;
+}
+
+
+#info-div{
+    box-shadow: none;
+    background-color: #202C36;
+}#image-id{
+    box-shadow: none;
+    filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.25));
+}.tag{
+    box-shadow: 0px 0px 2px #bbbbbb; 
+    overflow: hidden;
+    background-color: #202C36;
+    box-shadow: none;
+}
+
+#searchbar{
+    box-shadow: none;
+    background-color: #2B3844;
+    color: #FFFFFF;
+    border: none;
+}#selectbar{
+    box-shadow: none;
+    background-color: #2B3844;
+    color: #FFFFFF;
+    border: none;
+}
+
+#button_back{
+    box-shadow: none;
+    background-color: #2B3844;
+    color: #FFFFFF;
+    border: none;
+}.gg-arrow-long-left{
+    align-self: center;
+    width: 15px;
+    margin-right: 10px;
+}
+
+footer{
+    font-family: 'Nunito Sans';
+    text-align: center;
+    font-size: 10px;
+}
+
+@media (max-width: 480px){
+    #h-title{
+        font-size: 14px;
+        margin-left: 16px;
+    }#h-right{
+        font-size: 12px;
+        width: 84px;
+        margin-left: 3px;
+    }#h-icone{
+        width: 8px;
+    }
+
+    #research{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 16px;
+    
+        width: 85%;
+        flex-direction: column;
+        align-items: flex-start;
+    }#searchbar{
+        width: 90%;
+        min-width: 300px;
+        height: 46px;
+        outline: 0;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    #country_container{
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+    }.country_item{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #button_back{
+        width: 100px;
+        height: 32px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 28px;
+        font-family: 'Nunito Sans';
+        font-size: 14px;
+    }
+    #infopage{
+        padding-left:  28px;
+        padding-right: 28px;
+        flex-direction: column;
+    }#image-id-container{
+        width:320px;
+        margin-bottom: 28px;
+    }#info-title{
+        font-size:22px;
+        margin-bottom: 16px;
+    }#info-info div{
+        line-height: 30px;
+        font-size:14px;
+    }.tag{
+        margin: 5px 5px 5px 0px;
+        font-size: 12px;
+    }
+}
